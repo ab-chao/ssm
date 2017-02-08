@@ -5,11 +5,8 @@
 <mapper namespace="com.ssm.demo.dao.DemoDao">
 
     <select id="getEmp" resultType="com.ssm.demo.entity.DemoEntity">
-        select  e.ENAME ENAME,
-                e.JOB JOB,
-                e.SAL SAL
+        select *
         from emp e
-        where e.empno='7369'
     </select>
 
  </mapper>
